@@ -1,3 +1,7 @@
+# visual studio files
+.vs/
+Debug/
+
 # Prerequisites
 *.d
 
