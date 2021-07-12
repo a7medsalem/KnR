@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+
+int main() {
+
+	printf("Enter a char ");
+	int c = getchar() != EOF;
+	printf("(char != EOF) is %d", c);
+
+	printf("/* test quoted multi line comment */");
+	printf("// test quoted single comment");
+
+	// some other comment
+	/* other Comment type */
+	int input;
+	/*
+		MultiLine comment
+		this comment is commented
+	*/
+	while ((input = getchar()) != EOF)
+		// this put the input in stdout, when press enter it will print it again on the screen, or it can print it to file not screen :)
+		putchar(input); 
+
+
+	/*
+		// nested comment
+	*/
+	// /* nested multi in single */
+}
