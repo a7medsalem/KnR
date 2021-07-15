@@ -1,3 +1,9 @@
+/*
+*	Summary
+*	- doing a forloop codition to detect longest line without using || or && operators
+*/
+
+
 #include <stdio.h>
 
 #define MAXLINE 1000
