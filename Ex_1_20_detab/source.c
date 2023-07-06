@@ -14,6 +14,8 @@
 
 int main() {
 
+	printf("Replacing tabs with sequential spaces\n\n");
+
 	FILE* file = freopen("testfile.txt", "r", stdin);
 	char c;
 	int col, row;

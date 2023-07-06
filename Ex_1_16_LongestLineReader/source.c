@@ -9,7 +9,6 @@
 
 #define MAXLINE 1000
 
-
 int getLine(char[], int);
 void copy(char[], char[]);
 
@@ -35,7 +34,7 @@ int main() {
 
 
 	if (max > 0)
-		printf("\n\n\tLongest line with long %d chars\n\n%s\n\n", max, longest);
+		printf("\n\n\tThe longest line has %d chars\n\n%s\n\n", max, longest);
 
 	fclose(stdin);
 	return 0;

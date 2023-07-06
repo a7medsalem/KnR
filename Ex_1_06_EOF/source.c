@@ -11,7 +11,7 @@
 int main() {
 
 	printf("Enter a char ");
-	int c = getchar() != EOF;
+	const int c = getchar() != EOF;
 	printf("(char != EOF) is %d", c);
 
 	int input;

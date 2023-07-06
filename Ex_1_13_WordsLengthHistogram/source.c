@@ -15,7 +15,8 @@ void printHorizontalHistogram();
 
 int main() {
 
-	printf("\n\n\t#### Words Histogram ####\n\n");
+	printf("\n\n\t#### Words Histogram ####\n");
+	printf("\tEnter some words and press Enter to print histogram represent words length.\n\n");
 	printHorizontalHistogram();
 }
 

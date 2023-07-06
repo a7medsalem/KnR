@@ -1,7 +1,7 @@
 /*
 *	Summary
 *	- define macros using #define.
-*	- use for loop.
+*	- use (for) loop.
 *	- print celsius to fahrenheit table.
 */
 

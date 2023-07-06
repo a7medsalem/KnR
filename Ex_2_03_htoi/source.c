@@ -1,6 +1,7 @@
 /*
 *	Summary
 *	- htoi function to convert hex string value to an integer.
+*	- The function doesn't check for invalid input.
 */
 
 

@@ -1,6 +1,6 @@
 /*
 *	Summary
-*	- short multiple sequance whitespaces to one white space.
+*	- short multiple sequence whitespaces to one white space.
 */
 
 
@@ -13,6 +13,9 @@ int main() {
 
 	int  c;
 	int inBlank;
+
+	printf("Enter a text to short its multiple sequence whitespaces to one white space.\n");
+	printf("\"To finish typing, enter EOF (Ctrl+Z in Windows) in empty line then press Enter or quite the app (Ctrl+C)\"\n\n");
 
 	inBlank = FALSE;
 	while ((c = getchar()) != EOF)

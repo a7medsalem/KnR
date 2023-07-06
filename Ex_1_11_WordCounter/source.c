@@ -15,6 +15,9 @@ int main() {
 
 	int c, nl, nw, nc, state;
 
+	printf("Enter a text to count its words.\n");
+	printf("\"To finish typing, enter EOF (Ctrl+Z in Windows) in empty line then press Enter\"\n\n");
+
 	state = OUT;
 	nl = nw = nc = 0;
 	while ((c = getchar()) != EOF)
@@ -34,5 +37,5 @@ int main() {
 		}
 	}
 
-	printf("\n\n\tnumber of words is %d\n\n", nw);
+	printf("\n\n\tNumber of words is %d\n\n", nw);
 }

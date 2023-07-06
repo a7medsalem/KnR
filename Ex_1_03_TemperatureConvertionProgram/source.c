@@ -9,7 +9,14 @@
 #include <stdio.h>
 
 int main() {
-	
+
+	/*
+	 *	%x.yf formatting usage
+	 *	x : minimum number of characters to be printed
+	 *	y : number of digits to be printed after the decimal point
+	 *	f : float
+	 */
+
 	float fahr, celsius;
 	int lower, upper, step;
 

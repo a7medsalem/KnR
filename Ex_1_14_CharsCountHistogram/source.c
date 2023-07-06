@@ -21,7 +21,9 @@ void printVerticalHistogram();
 
 int main() {
 
-	printf("\n\n\t#### Chars Histogram ####\n\n");
+	printf("\n\n\t#### Chars Histogram ####\n");
+	printf("\tEnter any text (new lines are allowed) to count its characters occurrence.\n");
+	printf("\t\"To finish typing, enter EOF (Ctrl+Z in Windows) in empty line then press Enter\"\n\n");
 	printVerticalHistogram();
 }
 

@@ -1,7 +1,7 @@
 /*
 *	Summary
-*	- kick start and print some messages.
-*	- include standard input/out header.
+*	- kick start and print some messages using printf function.
+*	- include standard input/out header (stdio.h).
 */
 
 

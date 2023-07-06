@@ -32,8 +32,8 @@ int main()
 	printf("\tShort min value %d\n", -1 * power(2, sizeof(short) * 8 - 1));
 	printf("\tShort max unsigned value +%u\n", 1 * power(2, sizeof(short) * 8) - 1);
 	printf("\n\t=== Using limits.h ===\n");
-	printf("\tSHRT_MIN value : %d\n", SHRT_MIN);
 	printf("\tSHRT_MAX value : +%d\n", SHRT_MAX);
+	printf("\tSHRT_MIN value : %d\n", SHRT_MIN);
 	printf("\tUSHRT_MAX value : +%u\n", USHRT_MAX);
 
 	printf("\n=============================================\n");
@@ -43,8 +43,8 @@ int main()
 	printf("\tChar max value +%d\n", 1 * power(2, sizeof(char) * 8 - 1) - 1);
 	printf("\tChar min value %d\n", -1 * power(2, sizeof(char) * 8 - 1));
 	printf("\n\t=== Using limits.h ===\n");
-	printf("\tCHAR_MIN value : %d\n", CHAR_MIN);
 	printf("\tCHAR_MAX value : +%d\n", CHAR_MAX);
+	printf("\tCHAR_MIN value : %d\n", CHAR_MIN);
 
 	printf("\n=============================================\n");
 
@@ -53,8 +53,8 @@ int main()
 	printf("\tLong max value +%d\n", 1 * power(2, sizeof(long) * 8 - 1) - 1);
 	printf("\tLong min value %d\n", -1 * power(2, sizeof(long) * 8 - 1));
 	printf("\n\t=== Using limits.h ===\n");
-	printf("\tLONG_MIN value : %d\n", LONG_MIN);
 	printf("\tLONG_MAX value : +%d\n", LONG_MAX);
+	printf("\tLONG_MIN value : %d\n", LONG_MIN);
 
 	return 0;
 }

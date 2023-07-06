@@ -12,6 +12,8 @@ int main() {
 	int c;
 	long counter;
 
+	printf("Enter a text to count its white spaces.\n\"To finish typing, enter EOF (Ctrl+Z in Windows) in empty line then press Enter\"\n\n");
+
 	counter = 0;
 	while ((c = getchar()) != EOF)
 	{
@@ -20,5 +22,5 @@ int main() {
 			counter++;
 	}
 
-	printf("\n\n\tNumber of white spaces is %d\n\n", counter);
+	printf("\n\n\tNumber of white spaces (including new lines) is %d\n\n", counter);
 }

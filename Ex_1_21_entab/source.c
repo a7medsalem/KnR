@@ -1,6 +1,6 @@
 /*
 *	Summary
-*	- replace multiple spaces with equivelant tabs.
+*	- replace multiple spaces with equivalent tabs.
 */
 
 #include <stdio.h>
@@ -18,6 +18,8 @@ int getNextTab(int, int);
 
 
 int main() {
+
+	printf("Replacing spaces with equivalent tabs\n\n");
 
 	FILE* file = freopen("testfile.txt", "r", stdin);
 	char c;
