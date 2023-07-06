@@ -11,12 +11,15 @@
 #define INPUT_LIMIT 17
 
 int htoi(const char[]);
+int validateInput(const char str[]);
 
 int main() 
 {
 	int result;
 	int count = 0;
 	char hex[INPUT_LIMIT];
+
+	printf("Enter hex value to get its integer equivalent (0x is optional): ");
 
 	char c;
 	while (count < INPUT_LIMIT - 1 && (c = getchar()) != EOF && c != '\n')
@@ -25,11 +28,38 @@ int main()
 	}
 	hex[count] = '\0';
 
-	result = htoi(hex);
-	printf("hex value %s equals %d", hex, result);
+
+	if(validateInput(hex))
+	{
+		result = htoi(hex);
+		printf("hex value 0x%s equals %d", hex, result);
+	}
+	else
+	{
+		printf("invalid input");
+	}
 
 }
 
+int validateInput(const char str[])
+{
+	char c;
+	int length = 0;
+	while ((c = str[length]) != '\0')
+	{
+		// check for invalid characters
+		if(('0' <= c && c <= '9') || ('A' <= c && c <= 'F') || ('a' <= c && c <= 'f'))
+		{
+			length++;
+		}
+		else
+		{
+			return 0;
+		}
+	}
+
+	return 1;
+}
 
 int htoi(const char str[])
 {
