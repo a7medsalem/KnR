@@ -5,12 +5,12 @@
 
 #include <stdio.h>
 
-void squeeze(char s1[], const char s2[]);
+void squeeze(const char s1[], const char s2[]);
 
 void main()
 {
-	char testString[]	= "Some text to test the function";
-	char chars[]		= "xsc";
+	char testString[] = "Some text to test the function";
+	char chars[] = "xsc";
 
 	printf("\n\tThe text to squeeze is \"%s\" by removing those characters \"%s\"\n", testString, chars);
 	squeeze(testString, chars);
