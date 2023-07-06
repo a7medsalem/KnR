@@ -1,7 +1,7 @@
 /*
 *	Summary
 *	- define parametric functions.
-*	- convert from fehrenheit to celsius table.
+*	- convert from fahrenheit to celsius table.
 */
 
 #include <stdio.h>
@@ -19,7 +19,7 @@ int main() {
 	upper = 300;
 	step = 20;
 
-	printf("Fehrenheit\tCelsius\n");
+	printf("Fahrenheit\tCelsius\n");
 	printf("-----------------------\n");
 
 	fahr = lower;

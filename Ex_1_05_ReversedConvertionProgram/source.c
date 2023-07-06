@@ -14,7 +14,7 @@ int main() {
 
 	float fahr, celsius;
 
-	printf("Celsius\t\tFehrenheit\n");
+	printf("Celsius\t\tFahrenheit\n");
 	printf("-------------------------\n");
 
 	for (celsius = UPPER; celsius >= LOWER; celsius -= STEP)

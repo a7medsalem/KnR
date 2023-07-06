@@ -2,7 +2,7 @@
 *	Summary
 *	- define macros using #define.
 *	- use for loop.
-*	- print celsius to fehrenheit table.
+*	- print celsius to fahrenheit table.
 */
 
 #include <stdio.h>
@@ -15,7 +15,7 @@ int main() {
 
 	float fahr, celsius;
 
-	printf("Celsius\t\tFehrenheit\n");
+	printf("Celsius\t\tFahrenheit\n");
 	printf("-------------------------\n");
 
 	for (celsius = LOWER; celsius <= UPPER; celsius+= STEP)

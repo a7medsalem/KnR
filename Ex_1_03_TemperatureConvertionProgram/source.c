@@ -3,7 +3,7 @@
 *	- define variables.
 *	- use while loop.
 *	- use \t char and float format %x.yf to print nice look aligned table.
-*	- print fehrenheit to celsius table.
+*	- print fahrenheit to celsius table.
 */
 
 #include <stdio.h>
@@ -17,7 +17,7 @@ int main() {
 	upper = 300;
 	step = 20;
 
-	printf("Fehrenheit\tCelsius\n");
+	printf("Fahrenheit\tCelsius\n");
 	printf("-----------------------\n");
 
 	fahr = lower;

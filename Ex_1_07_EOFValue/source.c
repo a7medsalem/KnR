@@ -8,5 +8,5 @@
 
 int main() {
 
-	printf("Value if EOF costant is %d", EOF);
+	printf("Value if EOF constant is %d", EOF);
 }

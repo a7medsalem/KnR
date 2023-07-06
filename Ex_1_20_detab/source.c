@@ -1,6 +1,6 @@
 /*
 *	Summary
-*	- replace tabs with equivelant spaces.
+*	- replace tabs with equivalent spaces.
 */
 
 #include <stdio.h>
