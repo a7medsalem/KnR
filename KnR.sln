@@ -61,6 +61,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex_2_04_SqueezeTwoStrings",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex_2_05_FirstOccurrenceOfChars", "Ex_2_05_FirstOccurrenceOfChars\Ex_2_05_FirstOccurrenceOfChars.vcxproj", "{84579D88-B7DB-4FA0-9FE1-93CF31196518}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex_2_06_SetBits", "Ex_2_06_SetBits\Ex_2_06_SetBits.vcxproj", "{05DE6782-B134-4ED7-A631-6541ECB181AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -301,6 +303,14 @@ Global
 		{84579D88-B7DB-4FA0-9FE1-93CF31196518}.Release|x64.Build.0 = Release|x64
 		{84579D88-B7DB-4FA0-9FE1-93CF31196518}.Release|x86.ActiveCfg = Release|Win32
 		{84579D88-B7DB-4FA0-9FE1-93CF31196518}.Release|x86.Build.0 = Release|Win32
+		{05DE6782-B134-4ED7-A631-6541ECB181AB}.Debug|x64.ActiveCfg = Debug|x64
+		{05DE6782-B134-4ED7-A631-6541ECB181AB}.Debug|x64.Build.0 = Debug|x64
+		{05DE6782-B134-4ED7-A631-6541ECB181AB}.Debug|x86.ActiveCfg = Debug|Win32
+		{05DE6782-B134-4ED7-A631-6541ECB181AB}.Debug|x86.Build.0 = Debug|Win32
+		{05DE6782-B134-4ED7-A631-6541ECB181AB}.Release|x64.ActiveCfg = Release|x64
+		{05DE6782-B134-4ED7-A631-6541ECB181AB}.Release|x64.Build.0 = Release|x64
+		{05DE6782-B134-4ED7-A631-6541ECB181AB}.Release|x86.ActiveCfg = Release|Win32
+		{05DE6782-B134-4ED7-A631-6541ECB181AB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
